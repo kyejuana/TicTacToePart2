@@ -1,0 +1,40 @@
+#board {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  
+  .row {
+    clear: both;
+    width: 302px;
+    margin: auto;
+  }
+  
+  .top {
+    border-bottom: 1px solid magenta;
+  }
+  
+  .bottom {
+    border-top: 1px solid teal;
+  }
+  
+  .left {
+    border-right: 1px solid blue;
+  }
+  
+  .right {
+    border-left: 1px solid red;
+  }
+  
+  #reset-button {
+    display: none;
+  }
+
+  
